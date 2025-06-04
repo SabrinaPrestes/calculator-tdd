@@ -27,7 +27,7 @@ Os testes foram desenvolvidos **antes da implementação**, seguindo a prática 
 1. Clone o projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora-tdd.git
-cd calculadora-tdd
+git clone https://github.com/SabrinaPrestes/calculator-tdd
+cd calculator-tdd
 
 
