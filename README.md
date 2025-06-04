@@ -28,6 +28,6 @@ Os testes foram desenvolvidos **antes da implementação**, seguindo a prática 
 
 ```bash
 git clone https://github.com/SabrinaPrestes/calculator-tdd
-cd calculator-tdd
+
 
 
