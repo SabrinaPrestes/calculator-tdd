@@ -14,7 +14,7 @@ A calculadora realiza as seguintes operações:
 
 ## 🧪 Testes Automatizados
 
-Os testes foram desenvolvidos **antes da implementação**, seguindo a prática de TDD. Utiliza-se **JUnit 5** para testar cada método da classe `Calculadora`.
+Os testes foram desenvolvidos **antes da implementação**, seguindo a prática de TDD. Utiliza-se **JUnit 5** para testar cada método da classe `Calculator`.
 
 ## 🛠️ Tecnologias
 
