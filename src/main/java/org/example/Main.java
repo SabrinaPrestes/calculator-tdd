@@ -1,7 +1,8 @@
 package org.example;
 
+import lombok.extern.slf4j.Slf4j;
 import org.example.calculator.Calculator;
-
+@Slf4j
 public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
@@ -11,15 +12,15 @@ public class Main {
         int multiply = calculator.multply(3,3);
         int divide = calculator.divide(8,2);
 
-        System.out.println("Sum result: " + sum);
-        System.out.println("Subtraction result: " + sub);
-        System.out.println("Multiplication result: " + multiply);
-        System.out.println("Division result: " + divide);
+       log.info("Sum result: {}", sum);
+       log.info("Subtraction result: {}", sub);
+       log.info("Multiplication result: {}", multiply);
+       log.info("Division result: {}", divide);
 
         try {
             calculator.divide(10, 0);
         } catch (ArithmeticException e) {
-            System.out.println("Error while dividing: " + e.getMessage());
+            log.error("Error while dividing: ", e.getMessage());
         }
     }
 }
